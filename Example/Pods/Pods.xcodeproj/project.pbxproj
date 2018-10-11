@@ -7,18 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0530DAD43F2660CE3F1C6DC8D446F226 /* MHKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3A7316E84E07879A85B0D06D40C961 /* MHKeyboardToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1590E6EF9D29C0D629F68678DAE81B4F /* MHKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D880B0CFA9818DE01290246B649312 /* MHKeyboardToolbar.m */; };
+		0EEC67C5D6DB37EE27841497AF2A90EF /* MHKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3EAE2D674F322041F6CEF8EF196290 /* MHKeyboardToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26916283820F805664172710F2DC1BEA /* MHKeyboardToolbar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD2ED980ADE6DDA881EB87609EAB960 /* MHKeyboardToolbar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F3BB86C070DDE91C0609EC9EDD51F63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		57B37CF8ADD5415F98DE88B1FBED4AA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		709EF805ECDD6A48B6C27FBAEC0BAD60 /* ssViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDFB5DEF747ECD3A6C4B3916B3FE25E /* ssViewController.m */; };
-		7FD7B13F0073FB36089E1315FC91475E /* MHKeyboardToolbar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01290AEEE0767BBD3C7E13915FE22817 /* MHKeyboardToolbar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A666BCDA81A5676A37409E562A5B92F /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4189AB003E00AA45BFEFE7A82CA48682 /* ViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95B0E42840E9CC9A5940911853342E5B /* ssViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC7FD441F821CC57B97F5EA2D96F652 /* ssViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE1FF9701AE4AB409D73466078C8BD33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9696BE2ADC894FE765A2A877B1F75A6A /* ViewController.m */; };
+		963A1E7F215ADFE3C0F14C779F4BBC89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		CEC3D9B27B019945C5AF736550B5FF09 /* Pods-MHKeyboardToolbar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B872464D96B6753E1CC6AA37074AA2 /* Pods-MHKeyboardToolbar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3CF4E4E4D74929C65DC05A6813C8FC4 /* Pods-MHKeyboardToolbar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FD56565BBD9E4B207C781CF7287ABC /* Pods-MHKeyboardToolbar_Example-dummy.m */; };
-		DEFA8DC691C4F0E72949E074854F976B /* MHKeyboardToolbar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 726A2DE6E86615BA8DFAF42D844B62DA /* MHKeyboardToolbar-dummy.m */; };
+		EBA83B9402E3B68C9F2DEB79FD22AD4A /* MHKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BA0B57F1EC9A06BBCCF8D66DBDE265 /* MHKeyboardToolbar.m */; };
+		F0CB27BFB6CB6701804C26F0C896D979 /* MHKeyboardToolbar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C56CB73A9D4EE7580E4B9CD5EE5C8FF /* MHKeyboardToolbar-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,49 +22,45 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EC887D045755789A4EE1EA4E6FA6C149;
+			remoteGlobalIDString = 24E7419EC90E429979972FACF87428E6;
 			remoteInfo = MHKeyboardToolbar;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01290AEEE0767BBD3C7E13915FE22817 /* MHKeyboardToolbar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MHKeyboardToolbar-umbrella.h"; sourceTree = "<group>"; };
-		01D880B0CFA9818DE01290246B649312 /* MHKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MHKeyboardToolbar.m; path = MHKeyboardToolbar/Classes/MHKeyboardToolbar.m; sourceTree = "<group>"; };
+		04C0432D0B95D93576AFB086E50DC4AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1704114D608993A97C3C0ED366FF125F /* Pods-MHKeyboardToolbar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MHKeyboardToolbar_Example-resources.sh"; sourceTree = "<group>"; };
-		1BE8A08324ABDB8009ABF2A0EC04AED6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		1F33F7B28B0C80F602FEB49C6A3C1349 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		39A3CA0B7ADD8F1A9999276146EE260D /* MHKeyboardToolbar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MHKeyboardToolbar.modulemap; sourceTree = "<group>"; };
-		4189AB003E00AA45BFEFE7A82CA48682 /* ViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = MHKeyboardToolbar/Classes/ViewController.h; sourceTree = "<group>"; };
-		50187025F81264039F4E9BB69A0AE6A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		196258587D0CAAD8D57714AFDF04301D /* MHKeyboardToolbar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MHKeyboardToolbar-prefix.pch"; sourceTree = "<group>"; };
+		1CD2ED980ADE6DDA881EB87609EAB960 /* MHKeyboardToolbar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MHKeyboardToolbar-umbrella.h"; sourceTree = "<group>"; };
+		2CF4D9A8A28546D293F5E11A997CE46C /* MHKeyboardToolbar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MHKeyboardToolbar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		44BD400D318FE708EEC20A41E87C7150 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58FD56565BBD9E4B207C781CF7287ABC /* Pods-MHKeyboardToolbar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MHKeyboardToolbar_Example-dummy.m"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5AC7FD441F821CC57B97F5EA2D96F652 /* ssViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssViewController.h; path = MHKeyboardToolbar/Classes/ssViewController.h; sourceTree = "<group>"; };
 		6117E61A85B22DF0104ABB2C0CE3956D /* Pods-MHKeyboardToolbar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MHKeyboardToolbar_Example.modulemap"; sourceTree = "<group>"; };
 		64AB1F55E0E394AEE41FDE43184B6A07 /* Pods-MHKeyboardToolbar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MHKeyboardToolbar_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6849268BC8C7B12ABDC98FE0938F6AB6 /* Pods-MHKeyboardToolbar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MHKeyboardToolbar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6A9AD78AAB08FEE971B3906A5FD07A77 /* Pods_MHKeyboardToolbar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MHKeyboardToolbar_Example.framework; path = "Pods-MHKeyboardToolbar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		726A2DE6E86615BA8DFAF42D844B62DA /* MHKeyboardToolbar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MHKeyboardToolbar-dummy.m"; sourceTree = "<group>"; };
-		7E3A7316E84E07879A85B0D06D40C961 /* MHKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MHKeyboardToolbar.h; path = MHKeyboardToolbar/Classes/MHKeyboardToolbar.h; sourceTree = "<group>"; };
+		6C56CB73A9D4EE7580E4B9CD5EE5C8FF /* MHKeyboardToolbar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MHKeyboardToolbar-dummy.m"; sourceTree = "<group>"; };
 		8411A310D1783A5C21697D381EDB6A01 /* MHKeyboardToolbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MHKeyboardToolbar.framework; path = MHKeyboardToolbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E5043D8635E55636ADC3D1A675FE80 /* MHKeyboardToolbar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MHKeyboardToolbar.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9696BE2ADC894FE765A2A877B1F75A6A /* ViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = MHKeyboardToolbar/Classes/ViewController.m; sourceTree = "<group>"; };
 		99B872464D96B6753E1CC6AA37074AA2 /* Pods-MHKeyboardToolbar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MHKeyboardToolbar_Example-umbrella.h"; sourceTree = "<group>"; };
 		9C401E0723C2589E64FB27FEF0A2F6DE /* Pods-MHKeyboardToolbar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MHKeyboardToolbar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9F0EE6B2D654C13166AB869BE551A9BC /* MHKeyboardToolbar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MHKeyboardToolbar-prefix.pch"; sourceTree = "<group>"; };
 		AEB3CA29EBFB0744E83B6442A1723803 /* Pods-MHKeyboardToolbar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MHKeyboardToolbar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B94A8D30650AA1BE609A161B1552AA09 /* MHKeyboardToolbar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MHKeyboardToolbar.xcconfig; sourceTree = "<group>"; };
-		BDDFB5DEF747ECD3A6C4B3916B3FE25E /* ssViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ssViewController.m; path = MHKeyboardToolbar/Classes/ssViewController.m; sourceTree = "<group>"; };
+		B8DEB3EBBB7FD0D144A9F3D1D032DE65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BF3EAE2D674F322041F6CEF8EF196290 /* MHKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MHKeyboardToolbar.h; path = MHKeyboardToolbar/Classes/MHKeyboardToolbar.h; sourceTree = "<group>"; };
 		D47656B84A6D68446D98691AA93E7F21 /* Pods-MHKeyboardToolbar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MHKeyboardToolbar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DBCBFFB8E1F9BF989206F129AD629287 /* MHKeyboardToolbar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MHKeyboardToolbar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F4BA0B57F1EC9A06BBCCF8D66DBDE265 /* MHKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MHKeyboardToolbar.m; path = MHKeyboardToolbar/Classes/MHKeyboardToolbar.m; sourceTree = "<group>"; };
+		F585EE623C08706227D23A48B3A529F8 /* MHKeyboardToolbar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MHKeyboardToolbar.xcconfig; sourceTree = "<group>"; };
 		F98DE7D83C0D5D1511B303EEAF06B6D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E3C788D41BC1EA4969DF237C01C122B6 /* Frameworks */ = {
+		99DF1A7F39F3F41306D3CCA5245484F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57B37CF8ADD5415F98DE88B1FBED4AA5 /* Foundation.framework in Frameworks */,
+				963A1E7F215ADFE3C0F14C779F4BBC89 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,28 +93,14 @@
 			path = "Target Support Files/Pods-MHKeyboardToolbar_Example";
 			sourceTree = "<group>";
 		};
-		4DE08C788ADA3385EFB7AA714758F88F /* Development Pods */ = {
+		5834E536FA66631DB95911612204C921 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				57BA918A3D2410A56ED23382E976B943 /* MHKeyboardToolbar */,
+				04C0432D0B95D93576AFB086E50DC4AE /* LICENSE */,
+				2CF4D9A8A28546D293F5E11A997CE46C /* MHKeyboardToolbar.podspec */,
+				B8DEB3EBBB7FD0D144A9F3D1D032DE65 /* README.md */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		57BA918A3D2410A56ED23382E976B943 /* MHKeyboardToolbar */ = {
-			isa = PBXGroup;
-			children = (
-				7E3A7316E84E07879A85B0D06D40C961 /* MHKeyboardToolbar.h */,
-				01D880B0CFA9818DE01290246B649312 /* MHKeyboardToolbar.m */,
-				5AC7FD441F821CC57B97F5EA2D96F652 /* ssViewController.h */,
-				BDDFB5DEF747ECD3A6C4B3916B3FE25E /* ssViewController.m */,
-				4189AB003E00AA45BFEFE7A82CA48682 /* ViewController.h */,
-				9696BE2ADC894FE765A2A877B1F75A6A /* ViewController.m */,
-				857B8293A4F32333BBC2FDBCD95B0B76 /* Pod */,
-				F8111F22278A10EC69BCB9143D679752 /* Support Files */,
-			);
-			name = MHKeyboardToolbar;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -131,6 +109,18 @@
 				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		78A3A73B2C79F0986D58B1F9BBBD9068 /* MHKeyboardToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				BF3EAE2D674F322041F6CEF8EF196290 /* MHKeyboardToolbar.h */,
+				F4BA0B57F1EC9A06BBCCF8D66DBDE265 /* MHKeyboardToolbar.m */,
+				5834E536FA66631DB95911612204C921 /* Pod */,
+				7C0751D2609BC2FE7816F1A50789C67D /* Support Files */,
+			);
+			name = MHKeyboardToolbar;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7B210F5E1218ABA74A0750D06D467982 /* Products */ = {
@@ -142,25 +132,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7C0751D2609BC2FE7816F1A50789C67D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44BD400D318FE708EEC20A41E87C7150 /* Info.plist */,
+				92E5043D8635E55636ADC3D1A675FE80 /* MHKeyboardToolbar.modulemap */,
+				F585EE623C08706227D23A48B3A529F8 /* MHKeyboardToolbar.xcconfig */,
+				6C56CB73A9D4EE7580E4B9CD5EE5C8FF /* MHKeyboardToolbar-dummy.m */,
+				196258587D0CAAD8D57714AFDF04301D /* MHKeyboardToolbar-prefix.pch */,
+				1CD2ED980ADE6DDA881EB87609EAB960 /* MHKeyboardToolbar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MHKeyboardToolbar";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4DE08C788ADA3385EFB7AA714758F88F /* Development Pods */,
+				FF6DD677EF6174A13E7A2901E47F29D4 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				7B210F5E1218ABA74A0750D06D467982 /* Products */,
 				931F789F954F6AD1EBC34B8A76020B3D /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		857B8293A4F32333BBC2FDBCD95B0B76 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1BE8A08324ABDB8009ABF2A0EC04AED6 /* LICENSE */,
-				DBCBFFB8E1F9BF989206F129AD629287 /* MHKeyboardToolbar.podspec */,
-				1F33F7B28B0C80F602FEB49C6A3C1349 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		931F789F954F6AD1EBC34B8A76020B3D /* Targets Support Files */ = {
@@ -179,31 +173,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F8111F22278A10EC69BCB9143D679752 /* Support Files */ = {
+		FF6DD677EF6174A13E7A2901E47F29D4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				50187025F81264039F4E9BB69A0AE6A0 /* Info.plist */,
-				39A3CA0B7ADD8F1A9999276146EE260D /* MHKeyboardToolbar.modulemap */,
-				B94A8D30650AA1BE609A161B1552AA09 /* MHKeyboardToolbar.xcconfig */,
-				726A2DE6E86615BA8DFAF42D844B62DA /* MHKeyboardToolbar-dummy.m */,
-				9F0EE6B2D654C13166AB869BE551A9BC /* MHKeyboardToolbar-prefix.pch */,
-				01290AEEE0767BBD3C7E13915FE22817 /* MHKeyboardToolbar-umbrella.h */,
+				78A3A73B2C79F0986D58B1F9BBBD9068 /* MHKeyboardToolbar */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MHKeyboardToolbar";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		750CC905112F337044EB559520BF3520 /* Headers */ = {
+		3CB24B2703FDEEABFDA08F0AAE08EDB3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FD7B13F0073FB36089E1315FC91475E /* MHKeyboardToolbar-umbrella.h in Headers */,
-				0530DAD43F2660CE3F1C6DC8D446F226 /* MHKeyboardToolbar.h in Headers */,
-				95B0E42840E9CC9A5940911853342E5B /* ssViewController.h in Headers */,
-				8A666BCDA81A5676A37409E562A5B92F /* ViewController.h in Headers */,
+				26916283820F805664172710F2DC1BEA /* MHKeyboardToolbar-umbrella.h in Headers */,
+				0EEC67C5D6DB37EE27841497AF2A90EF /* MHKeyboardToolbar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +204,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		24E7419EC90E429979972FACF87428E6 /* MHKeyboardToolbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E1D64D5E816D017EDEA07850CDC016C /* Build configuration list for PBXNativeTarget "MHKeyboardToolbar" */;
+			buildPhases = (
+				7DDDBA3C6A32B288C0E963F0F10002C3 /* Sources */,
+				99DF1A7F39F3F41306D3CCA5245484F3 /* Frameworks */,
+				3CB24B2703FDEEABFDA08F0AAE08EDB3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MHKeyboardToolbar;
+			productName = MHKeyboardToolbar;
+			productReference = 8411A310D1783A5C21697D381EDB6A01 /* MHKeyboardToolbar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		63FFEBC3D776F86D7A3D9F16CB0A0B14 /* Pods-MHKeyboardToolbar_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89E6930E8CBC8E8910814454D54775C5 /* Build configuration list for PBXNativeTarget "Pods-MHKeyboardToolbar_Example" */;
@@ -234,23 +237,6 @@
 			name = "Pods-MHKeyboardToolbar_Example";
 			productName = "Pods-MHKeyboardToolbar_Example";
 			productReference = 6A9AD78AAB08FEE971B3906A5FD07A77 /* Pods_MHKeyboardToolbar_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EC887D045755789A4EE1EA4E6FA6C149 /* MHKeyboardToolbar */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 25A9B173F7D44441524B49D2C033EAE3 /* Build configuration list for PBXNativeTarget "MHKeyboardToolbar" */;
-			buildPhases = (
-				DD1D51423D1F69BE630CE9C377C306DB /* Sources */,
-				E3C788D41BC1EA4969DF237C01C122B6 /* Frameworks */,
-				750CC905112F337044EB559520BF3520 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MHKeyboardToolbar;
-			productName = MHKeyboardToolbar;
-			productReference = 8411A310D1783A5C21697D381EDB6A01 /* MHKeyboardToolbar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -274,7 +260,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC887D045755789A4EE1EA4E6FA6C149 /* MHKeyboardToolbar */,
+				24E7419EC90E429979972FACF87428E6 /* MHKeyboardToolbar */,
 				63FFEBC3D776F86D7A3D9F16CB0A0B14 /* Pods-MHKeyboardToolbar_Example */,
 			);
 		};
@@ -289,14 +275,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD1D51423D1F69BE630CE9C377C306DB /* Sources */ = {
+		7DDDBA3C6A32B288C0E963F0F10002C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEFA8DC691C4F0E72949E074854F976B /* MHKeyboardToolbar-dummy.m in Sources */,
-				1590E6EF9D29C0D629F68678DAE81B4F /* MHKeyboardToolbar.m in Sources */,
-				709EF805ECDD6A48B6C27FBAEC0BAD60 /* ssViewController.m in Sources */,
-				AE1FF9701AE4AB409D73466078C8BD33 /* ViewController.m in Sources */,
+				F0CB27BFB6CB6701804C26F0C896D979 /* MHKeyboardToolbar-dummy.m in Sources */,
+				EBA83B9402E3B68C9F2DEB79FD22AD4A /* MHKeyboardToolbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,15 +290,45 @@
 		171BB1FD2C4B983274B54E7FDDE69749 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MHKeyboardToolbar;
-			target = EC887D045755789A4EE1EA4E6FA6C149 /* MHKeyboardToolbar */;
+			target = 24E7419EC90E429979972FACF87428E6 /* MHKeyboardToolbar */;
 			targetProxy = 4F62E5BC14E33118D6A7AE1AF884FF4B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		50086F65054AD1B1067C2A73388F71B0 /* Release */ = {
+		747D588DAB48CD4521299A2ED034C47D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B94A8D30650AA1BE609A161B1552AA09 /* MHKeyboardToolbar.xcconfig */;
+			baseConfigurationReference = F585EE623C08706227D23A48B3A529F8 /* MHKeyboardToolbar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MHKeyboardToolbar/MHKeyboardToolbar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MHKeyboardToolbar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MHKeyboardToolbar/MHKeyboardToolbar.modulemap";
+				PRODUCT_MODULE_NAME = MHKeyboardToolbar;
+				PRODUCT_NAME = MHKeyboardToolbar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8119A3915B30E687BEC76C1EA9BEE976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F585EE623C08706227D23A48B3A529F8 /* MHKeyboardToolbar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -473,36 +487,6 @@
 			};
 			name = Debug;
 		};
-		A50ADB7829F7F0047A75F680A95795AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B94A8D30650AA1BE609A161B1552AA09 /* MHKeyboardToolbar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MHKeyboardToolbar/MHKeyboardToolbar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MHKeyboardToolbar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MHKeyboardToolbar/MHKeyboardToolbar.modulemap";
-				PRODUCT_MODULE_NAME = MHKeyboardToolbar;
-				PRODUCT_NAME = MHKeyboardToolbar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -564,20 +548,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		25A9B173F7D44441524B49D2C033EAE3 /* Build configuration list for PBXNativeTarget "MHKeyboardToolbar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A50ADB7829F7F0047A75F680A95795AA /* Debug */,
-				50086F65054AD1B1067C2A73388F71B0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
 				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E1D64D5E816D017EDEA07850CDC016C /* Build configuration list for PBXNativeTarget "MHKeyboardToolbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				747D588DAB48CD4521299A2ED034C47D /* Debug */,
+				8119A3915B30E687BEC76C1EA9BEE976 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

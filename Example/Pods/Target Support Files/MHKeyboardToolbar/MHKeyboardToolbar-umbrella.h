@@ -11,8 +11,6 @@
 #endif
 
 #import "MHKeyboardToolbar.h"
-#import "ssViewController.h"
-#import "ViewController.h"
 
 FOUNDATION_EXPORT double MHKeyboardToolbarVersionNumber;
 FOUNDATION_EXPORT const unsigned char MHKeyboardToolbarVersionString[];
