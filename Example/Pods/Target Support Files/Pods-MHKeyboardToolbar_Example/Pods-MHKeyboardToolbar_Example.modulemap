@@ -1,0 +1,6 @@
+framework module Pods_MHKeyboardToolbar_Example {
+  umbrella header "Pods-MHKeyboardToolbar_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

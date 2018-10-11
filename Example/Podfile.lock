@@ -1,0 +1,16 @@
+PODS:
+  - MHKeyboardToolbar (0.1.0)
+
+DEPENDENCIES:
+  - MHKeyboardToolbar (from `../`)
+
+EXTERNAL SOURCES:
+  MHKeyboardToolbar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MHKeyboardToolbar: b97cda4120013bc9a8960ddca924149a1dc79eb9
+
+PODFILE CHECKSUM: 6a3438580eb7352af82023ff91ff395c81e3c50b
+
+COCOAPODS: 1.5.3
