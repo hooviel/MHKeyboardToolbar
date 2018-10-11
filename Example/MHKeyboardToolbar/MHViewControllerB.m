@@ -23,6 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    _textField3.disableKeyboardToolbar = YES;
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
