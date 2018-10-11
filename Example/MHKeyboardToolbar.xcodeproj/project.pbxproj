@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0E7CEC21F60665362D215671 /* Pods_MHKeyboardToolbar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHKeyboardToolbar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CAAB948E6716899A74C221F /* MHKeyboardToolbar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MHKeyboardToolbar.podspec; path = ../MHKeyboardToolbar.podspec; sourceTree = "<group>"; };
+		1CAAB948E6716899A74C221F /* MHKeyboardToolbar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MHKeyboardToolbar.podspec; path = ../MHKeyboardToolbar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		34BB416E842865B1907E72CB /* Pods_MHKeyboardToolbar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHKeyboardToolbar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5705A2A85A882AB346C7A918 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MHKeyboardToolbar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHKeyboardToolbar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
