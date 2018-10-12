@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MHKeyboardToolbar'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'MHKeyboardToolbar. 键盘操作辅助工具栏'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 iOS 键盘操作辅助工具栏，支持UITextField，UITextView，YYTextView； 如果不需要显示工具栏，可以设置使用输入控件的扩展属性设置 disableKeyboardToolbar = YES 设置不显示
                        DESC
 
-  s.homepage         = 'https://gitee.com/hooviel/MHKeyboardToolbar'
+  s.homepage         = 'https://github.com/hooviel/MHKeyboardToolbar'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'David' => 'hooviel@qq.com' }
-  s.source           = { :git => 'https://gitee.com/hooviel/MHKeyboardToolbar.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hooviel/MHKeyboardToolbar.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
